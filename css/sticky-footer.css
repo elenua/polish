@@ -9,4 +9,10 @@ html {
   position: absolute;
   bottom: 0;
   width: 100%;
+  z-index: 2;
+  /* Set the fixed height of the footer here */
 }
+.hidden-footer{
+  visibility: hidden;
+}
+  

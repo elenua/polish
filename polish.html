@@ -18,140 +18,135 @@
 		<link href="./css/sticky-footer.css" rel="stylesheet">
 
 		<style>
-		div{
-			border: 1px solid red;
-		}
-		.btn-signup{
-			margin-bottom: 40px;
-			margin-top: 30px;
-		}
-		.custom-nav{
-			margin-bottom: 0px;
-		}
-		.home-text p{
-			font-size: 1.2em;
-			font-family: Arial;
-		}
-		.home-text h3{
-			font-size: 2em;
-			font-weight: 500;
-		}
-		.text-bottom{
-			vertical-align: bottom;
-		}
-		.footer{
-			background: #5A5959;
-			color: white;
-		}
-		.footer a{
-			color: white;
-		}
-		.search-area{
-			background: #CDCDCD;
-			height: 200px;
-		}
-		.signup-area{
-			background: rgb(60, 132, 226);
-			height: 200px;
-		}
-		.signup-area{
-			color: white;
-			
-		}
+			.btn-signup{
+				margin-bottom: 40px;
+				margin-top: 30px;
+			}
+			.custom-nav{
+				margin-bottom: 0px;
+			}
+			.home-text p{
+				font-size: 1.2em;
+				font-family: Arial;
+			}
+			.home-text h3{
+				font-size: 2em;
+				font-weight: 500;
+			}
+			.text-bottom{
+				vertical-align: bottom;
+			}
+			.footer{
+				background: #5A5959;
+				color: white;
+			}
+			.footer a{
+				color: white;
+			}
+			.search-area{
+				background: #CDCDCD;
+				height: 200px;
+			}
+			.signup-area{
+				background: rgb(60, 132, 226);
+				height: 200px;
+			}
+			.signup-area{
+				color: white;	
+			}
 		</style>
 		<!-- This file store project specific CSS -->
 		<link href="http://polish.7webpages.com/static/css/polish.css" rel="stylesheet">
 
-	    <!-- Use this to quickly test CSS changes in a template,
-	    then move to polish.css -->
-    
-
-	    <script src="./polish_files/jquery-latest.js"></script>
-	    <script src="./polish_files/bootstrap.min.js"></script>
-	    <script src="./polish_files/bootstrap-datepicker.min.js"></script>
-	    <script src="./polish_files/polish.js"></script>
-	    <script type="text/javascript">
-
-	    	$(document).ready(function(){
-	    		$(".dateinput").datepicker({});
-	      	//$.fn.select2.defaults.allowClear = true;
-	  		})
-
-		</script>
+		    <!-- Use this to quickly test CSS changes in a template,
+		    then move to polish.css -->
 
 
-		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-		    <!--[if lt IE 9]>
-		      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		      <![endif]-->
-  	</head>
+		    <script src="./polish_files/jquery-latest.js"></script>
+		    <script src="./polish_files/bootstrap.min.js"></script>
+		    <script src="./polish_files/bootstrap-datepicker.min.js"></script>
+		    <script src="./polish_files/polish.js"></script>
+		    <script type="text/javascript">
+
+		    	$(document).ready(function(){
+		    		$(".dateinput").datepicker({});
+		      	//$.fn.select2.defaults.allowClear = true;
+		      })
+
+			</script>
+
+
+		  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+			    <!--[if lt IE 9]>
+			      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			      <![endif]-->
+	</head>
 
 	<body>
-<!--
- -->
+	  	<!-- Static navbar -->
+	  	<nav class="navbar bg-default custom-nav">
+	  		<div class="container-fluid	">
+	  			<div class="navbar-header">
+	  				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	  					<span class="sr-only">Toggle navigation</span>
+	  					<span class="icon-bar"></span>
+	  					<span class="icon-bar"></span>
+	  					<span class="icon-bar"></span>
+	  				</button>
+	  				<a class="navbar-brand" href="http://polish.7webpages.com/">polish</a>
+	  			</div>
+	  			<div id="navbar" class="navbar-collapse collapse">
 
-		<!-- Static navbar -->
-		<nav class="navbar bg-default custom-nav">
-			<div class="container-fluid	">
-			  	<div class="navbar-header">
-			    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-			      		<span class="sr-only">Toggle navigation</span>
-			      		<span class="icon-bar"></span>
-			      		<span class="icon-bar"></span>
-			      		<span class="icon-bar"></span>
-			    	</button>
-			    	<a class="navbar-brand" href="http://polish.7webpages.com/">polish</a>
-			  	</div>
-			  	<div id="navbar" class="navbar-collapse collapse">
+	  				<ul class="nav navbar-nav navbar-right">
+	  					<li><a href="../navbar-static-top/">Log in</a></li>
+	  					<li><a href="../navbar-fixed-top/">Sign up</a></li>
+	  				</ul>
+	  			</div><!--/.nav-collapse -->
+	  		</div><!--/.container-fluid -->
+	  	</nav>
 
-			    	<ul class="nav navbar-nav navbar-right">
-			      		<li><a href="../navbar-static-top/">Log in</a></li>
-			      		<li><a href="../navbar-fixed-top/">Sign up</a></li>
-			    	</ul>
-			  	</div><!--/.nav-collapse -->
-			</div><!--/.container-fluid -->
-		</nav>
-
-		<div class="container-fluid">
+	  	<div class="container-fluid">
 	  		<div class="row text-center">
 	  			<div class="col-md-6 signup-area">
 	  				<h3>The easiest and most effective way to
-	  				<br>	
-	  				 improve your presantation skills</h3>
-  					<div>
-  						<a href="javascript:void(0);" class="btn btn-signup btn-success text-center">Sign  up for free</a>
-  					</div>
+	  					<br>	
+	  					improve your presantation skills
+	  				</h3>
+	  				<div>
+	  					<a href="javascript:void(0);" class="btn btn-signup btn-success text-center">Sign  up for free</a>
+	  				</div>
 	  			</div>
-	  			<div class="col-md-6 search-area">
-	  				<h3>Leaving feedback for someone?</h3>
-	  				<input type="text">
-	  				<h3>Leaving feedback for some event?</h3>
-	  				<input type="text">
-	  			</div>
-	  		</div>
+  				<div class="col-md-6 search-area">
+  					<h3>Leaving feedback for someone?</h3>
+  						<input type="text">
+  					<h3>Leaving feedback for some event?</h3>
+  						<input type="text">
+  				</div>
+  			</div>
 
 	  		<div class="row text-center home-text">
-	  		<h3>Polish is a presenter feedback system that is</h3>
+	  			<h3>Polish is a presenter feedback system that is</h3>
 	  			<div class="col-md-6 col-md-offset-3">
-	  				<hr/>
-	  				<h3>Insightful</h3>
-	  				<p>Find out what areas of your teaching, training and
-	  				<br>
-	  				sales sessions are awesome and...need a little love.&nbsp;</p>
-					<hr/>
-	  				<h3>Easy</h3>
-	  			
-					<p>No Google Form, Survey Monkey or other tools needed.
-					<br>
-					Within 2 minutes you’re up and running with your own
-					<br>
-					branded URL (sorry, http://polish/irock is taken).&nbsp;</p>
-					<hr/>	
-					<h3>Actionable</h3>
-					<p>Surveys provide data. Yawn! Polish gets right to the point
-					<br>
-					identifying actionable insights to help you start improving today.</p>
-					<hr/>
+		  			<hr/>
+  					<h3>Insightful</h3>
+  					<p>Find out what areas of your teaching, training and
+  						<br>
+  						sales sessions are awesome and...need a little love.&nbsp;
+					</p>
+  					<hr/>
+  					<h3>Easy</h3>
+
+  					<p>No Google Form, Survey Monkey or other tools needed.
+  					<br>
+  					Within 2 minutes you’re up and running with your own
+  					<br>
+  					branded URL (sorry, http://polish/irock is taken).&nbsp;</p>
+  					<hr/>	
+  					<h3>Actionable</h3>
+  					<p>Surveys provide data. Yawn! Polish gets right to the point
+  					<br>
+  					identifying actionable insights to help you start improving today.</p>
+  					<hr/>
 				</div>
 			</div>		
 
@@ -161,46 +156,79 @@
 				</div>
 			</div>
 		</div>	
-		
 
-	<footer class="footer">
-      	<div class="container-fluid">
-      	<div class="row">	
-        	<div class="col-md-3 col-md-offset-3 text-center">
-        		<h3>Polish</h3>
-	  			<a href="http://polish.7webpages.com/core/about/">About</a>
-	  			<br>
-				<a href="http://polish.7webpages.com/core/terms/">Pricing</a>
-	  			<br>
-	  			<a href="http://polish.7webpages.com/core/contact/">Contact us</a>
-	  			<br>
-	  		</div>
+		<footer class="hidden-footer">
+	  		<div class="container-fluid">
+	  			<div class="row">	 
+	  				<div class="col-md-3 col-md-offset-3 text-center">
+	  					<h3>Polish</h3>
+	  					<a href="http://polish.7webpages.com/core/about/">About</a>
+	  					<br>
+	  					<a href="http://polish.7webpages.com/core/terms/">Pricing</a>
+	  					<br>
+	  					<a href="http://polish.7webpages.com/core/contact/">Contact us</a>
+	  					<br>
+	  				</div>
 
-        	<div class="col-md-3 text-center">
-        		<h3>Community</h3>
-        		<a href="">Twitter</a>
-	  			<br>
-        		<a href="">Facebook</a>
-	  			<br>
-        		<a href="">Linkedin</a>
-	  			<br>	  				  			
-        	</div>
+	  				<div class="col-md-3 text-center">
+	  					<h3>Community</h3>
+	  					<a href="">Twitter</a>
+	  					<br>
+	  					<a href="">Facebook</a>
+	  					<br>
+	  					<a href="">Linkedin</a>
+	  					<br>	  				  			
+	  				</div>
+	  			</div>
+	  			<div class="row">	      		
+	  				<div class="col-md-3 text-center">
+	  					<h3>Polish</h3>
+	  				</div>
 
-      	</div>
+	  				<div class="col-md-3 col-md-offset-6 text-center">
+	  					<br>
+	  					<p class="text-bottom">&copy; 2015 Polish, Inc. All rights reserved.</p>
+	  				</div>
+	  			</div>
+	  		</div>	
+	  	</footer>
 
-      	<div class="row">
-      		
-      		<div class="col-md-3 text-center">
-        		<h3>Polish</h3>
-        	</div>
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="row">	
+					<div class="col-md-3 col-md-offset-3 text-center">
+						<h3>Polish</h3>
+						<a href="http://polish.7webpages.com/core/about/">About</a>
+						<br>
+						<a href="http://polish.7webpages.com/core/terms/">Pricing</a>
+						<br>
+						<a href="http://polish.7webpages.com/core/contact/">Contact us</a>
+						<br>
+					</div>
 
-        	<div class="col-md-3 col-md-offset-6 text-center">
-        		<br>
-        		<p class="text-bottom">&copy; 2015 Polish, Inc. All rights reserved.</p>
-        	</div>
-      	</div>
-      	</div>
-    </footer>
+					<div class="col-md-3 text-center">
+						<h3>Community</h3>
+						<a href="https://twitter.com/trypolish">Twitter</a>
+						<br>
+						<a href="https://www.facebook.com/TryPolish">Facebook</a>
+						<br>
+						<a href="https://www.linkedin.com/company/poli-sh">Linkedin</a>
+						<br>	  				  			
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3 text-center">
+						<h3>Polish</h3>
+					</div>
+
+					<div class="col-md-3 col-md-offset-6 text-center">
+						<br>
+						<p class="text-bottom">&copy; 2015 Polish, Inc. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 	</body>
 </html>
