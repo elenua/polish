@@ -1,17 +1,17 @@
 
-body {
+/*body {
   background-color: #e8e8e8;
-}
+}*/
 
 
-/* Main*/
+/* Main
 .main{
   background-color: #fff;
-}
+}*/
 
 /* Sidebar navigation */
 .nav-sidebar {
-  background-color: #e8e8e8;
+ /* background-color: #e8e8e8;*/
   margin-right: -15px;
   margin-bottom: 20px;
   margin-left: -15px;
